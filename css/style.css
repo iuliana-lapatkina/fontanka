@@ -1,0 +1,767 @@
+body {
+    background: #242B33;
+    margin: 0px;
+}
+
+.regular {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.site-header .regular {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.burger-icon {
+    background: url('../images/icons8-menu-192.svg');
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: block;
+}
+
+.top-menu {
+    display: none;
+    align-items: center;
+}
+
+.top-menu ul li {
+    display: block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.top-menu.mobile-open {
+    background-color: #fff;
+    padding: 25px;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    left: 0;
+}
+
+.top-menu.mobile-open li {
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.first-view {
+    background-image: url("../images/rectangle.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.first-view .regular {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    height: 530px;
+}
+
+.first-view .regular h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 64px;
+    text-align: center;
+    color: #D4C17F;
+    margin-top: -50px;
+}
+
+.first-view .regular img {
+    max-width: 30px;
+    height: auto;
+    display: inline-block;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.first-view_contacts {
+    margin-top: -130px;
+}
+
+.telephone {
+    text-decoration: none;
+}
+
+.first-view_contacts p {
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.adress::before {
+    content: url("../images/group.png");
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 21px;
+    height: 21px;
+}
+
+.telephone::before {
+    content: url("../images/phone-call.png");
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 21px;
+    height: 21px;
+}
+
+.advantage .regular {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: end;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.advantage {
+    background-image: url(../images/II.png);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 5%;
+    background-size: 184px 197px;
+}
+
+.advantage .regular div {
+    margin: 20px;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+.rooms {
+    background-image: url(../images/III.png);
+    background-repeat: no-repeat;
+    background-position-x: 3%;
+    background-position-y: 14%;
+    background-size: 250px 220px;
+}
+
+.rooms .regular {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.rooms .regular h1 {
+    width: 100%;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-bottom: 30px;
+}
+
+.room1234 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.room1234 div {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.room1 img, .room2 img, .room3 img, .room4 img {
+    max-width: 100%;
+}
+
+.rooms div {
+    position: relative;
+    text-align: left;
+}
+
+.room-1, .room-2, .room-3, .room-4 {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+.fancybox__caption {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.look {
+    background-image: url("../images/background2.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.look .regular {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 780px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.do_you_want {
+    width: 100%;
+    min-height: 50px;
+}
+
+.do_you_want h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.do_you_want p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.form-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+}
+
+.look_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 550px;
+}
+
+.look_form input, .form-text, .form2 input {
+    width: 245px;
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 15px 15px;
+}
+
+.look_form input[type="text"],
+.look_form input[type="tel"] {
+    background: #ffffff2b;
+    color: #fff;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+}
+
+::placeholder { 
+    color: #BEBEBE;
+}
+
+.look_form input[type="text"]:active,
+.look_form input[type="tel"]:focus,
+.look_form input[type="text"]:active,
+.look_form input[type="tel"]:focus {
+    border: none;
+    outline: none;
+}
+
+.look_form input[type="submit"] {
+    background: #D4C17F;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+.form-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+    height: auto;
+}
+
+.submit-notice {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.video .regular {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    background-image: url(../images/IV.png);
+    background-repeat: no-repeat;
+    background-position-x: 90;
+    background-position-y: 5%;
+    background-size: 250px 220px;
+}
+
+.playing {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.playing a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+}
+
+.playing img {
+    width:100%;
+}
+
+.map .regular {
+    flex-direction: column;
+    height: 430px;
+}
+
+.map .regular h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin: 30px 0 30px 0;
+}
+
+.questions .regular {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-notice2 {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.form2 div {
+    justify-content: center;
+}
+
+.questions .regular h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-top: 60px;
+}
+
+.questions-form, .form2 div {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+    
+}
+
+.questions-form div, .questions-form input {
+    display: inline-block;
+    width: 255px;
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 15px 15px;
+}
+
+.questions-form input[type="text"]:active,
+.questions-form input[type="tel"]:focus,
+.questions-form input[type="text"]:active,
+.questions-form input[type="tel"]:focus {
+    border: none;
+    outline: none;
+}
+
+.questions-form input[type="text"],
+.questions-form input[type="tel"] {
+    background: #ffffff2b;
+    color: #fff;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+}
+
+.questions-form input[type="submit"] {
+    background: #D4C17F;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+
+footer {
+    background-color: #2D343C;
+    padding: 40px 0 40px 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo2 {
+    display: none;
+}
+
+
+footer .regular {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+footer .regular ul li {
+    display: block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 7px;
+}
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail {
+    color: #D4C17F;
+}
+
+.column3 ul li span {
+    color: #FFFFFF;
+}
+
+.social-icons a {
+    position: relative;
+    display: block;
+}
+
+.social-icons a::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    background-color: transparent;
+    background-size: 100% 100%;
+}
+
+.social-icons .social-icon-youtube::before {
+    background-image: url("../images/youtube.svg"); 
+    }
+
+.social-icons .social-icon-vk::before {
+    background-image: url("../images/vk.svg");
+}
+
+  
+.social-icons .social-icon-telegram::before {
+    background-image: url("../images/telegram.svg");
+}
+
+.social-icon-vk {
+    margin-left: 45px;
+}
+
+.social-icon-telegram {
+    margin-left: 90px;
+}
+
+.social-icons li a {
+    text-decoration: none;
+     list-style-type: none;
+}
+
+@media screen and (min-width: 321px) {
+
+    .regular {
+        width: 70%;
+    }
+
+    .logo {
+        width: auto;
+    }
+
+    .top-menu {
+        display: none;
+    }
+
+    .top-menu ul {
+        padding: inherit;
+    }
+
+    .first-view .regular h1 {
+        font-size: 40px;
+        margin-top: 50px;
+}
+
+    .first-view .regular {
+        height: 650px;
+    }
+
+    .first-view .regular img {
+        max-width: 40px;
+        margin-top: -120px;
+    }
+
+    .advantage .regular {
+        margin-bottom: 50px;
+    }
+
+
+    .rooms .regular h1 {
+        font-size: 34px;
+    }
+    
+    .playing a {
+        width: 80px;
+    }
+
+    .map .regular h2 {
+        font-size: 34px;
+        margin: 40px 0 40px 0;
+    }
+
+    .questions .regular h2 {
+        font-size: 34px;
+    
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .site-header .regular {
+        justify-content: space-around;
+    }
+
+    .top-menu {
+        display: flex;
+    }
+
+    .top-menu ul li {
+        display: inline-block;
+        margin-left: 35px;
+    }
+
+    .burger-icon {
+        display: none;
+    }
+
+    .first-view .regular h1 {
+        font-size: 48px;
+        margin-top: 200px;
+    }
+
+    .first-view .regular {
+        height: 840px;
+    }
+
+    .rooms .regular {
+        align-items: center;
+    }
+
+    .rooms .regular h1 {
+        margin-bottom: 50px;
+        width: auto;
+        justify-content: center;
+        font-size: 36px;
+    }
+
+    .room1234 {
+        justify-content: center;
+    }
+
+    .look .regular {
+        flex-wrap: inherit;
+        height: 780px;
+    }
+
+    .look .regular, .questions .regular {
+        flex-wrap: inherit;
+    }
+
+    .form-text {
+        height: inherit;
+    }
+    
+    .do_you_want {
+        width: 47%;
+    }
+
+    .playing a {
+        width: inherit;
+    }
+
+    .map .regular h2 {
+        font-size: 36px;
+        margin: 80px 0 80px 0;
+    }
+
+    .questions .regular {
+        flex-wrap: inherit;
+    }
+
+
+    .questions .regular h2 {
+        font-size: 36px;
+        margin-top: 100px;
+    }
+
+
+    .form2 {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media screen and (min-width: 930px) {
+
+    .logo2 {
+        display: initial;
+    }
+
+    #footer .regular {
+        flex-wrap: nowrap;
+    }
+
+}
+
+
+@media screen and (min-width: 1425px) {
+
+    .room1234 {
+        justify-content: space-between;
+    }
+    
+    .rooms .regular {
+        align-items: inherit;
+    }
+
+    .form2 div {
+        justify-content: inherit;
+    }
+
+    .form2 {
+        justify-content: space-between;
+    }
+
+}
